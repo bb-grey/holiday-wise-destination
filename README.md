@@ -1,0 +1,1 @@
+# Holidaywise destination page layout

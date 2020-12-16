@@ -1,0 +1,160 @@
+@media screen and (max-width: 800px) and (min-width: 768px){
+	.time-loc, .plane-sp, .flight-type{
+		clear: both;
+		float: none;
+	}
+	.time-loc-dep{
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 364px){
+	.time-loc, .plane-sp, .flight-type{
+		clear: both;
+		float: none;
+	}
+	.plane-sp{
+		margin-left: 0px !important;
+	}
+	.time-loc-dep{
+		margin-top: 40px;
+	}	
+}
+body{
+	background-color: #FFFFFF;
+}
+.sidebar-col{
+	background-color: #F1F1F1;
+	overflow-y: auto;
+	height: 100vh;
+	padding-bottom: 20px;
+}
+.alerts-button-container{
+	padding: 20px 0px 10px 0px;
+}
+.alerts-button{
+	background-color: #FFFFFF;
+	color: #096FDA;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+	width: 100%;
+	border: 1px solid #E5E5E5;
+	padding: 5px 10px;
+}
+.sidebar-categories-container{
+	margin-top: 16px;
+}
+.sidebar-inner-body hr{
+	margin-top: 10px !important;
+	margin-bottom: 0px !important;
+}
+.single-category-checkboxes{
+	width: 60%;
+	margin: auto;
+}
+
+.sp-title{
+	color: #0A69CD;
+	font-size: 14px;
+}
+.sp-pkr{
+	color: #A0A0A0;
+	font-size: 14px;
+}
+.cat-des{
+	line-height: 16px;
+}
+
+.main-body-inner-row{
+	padding-top: 20px;
+}
+.flight-info-col{
+	padding: 20px 20px 0px 20px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 3px #D2D2D2;
+        box-shadow: 0 0 3px #D2D2D2;
+}
+.face-image{
+	float:left;
+	width: 30%;
+}
+.face-image img{
+	width: 40px;
+}
+.flight-time-container{
+	float:right;
+	width: 70%;
+	/*margin-right: 20px;*/
+}
+.time-loc{
+	display: block;
+	float: left;
+}
+.time{
+	font-size: 18px;
+	line-height: 0px;
+}
+.loc{
+	color: #6D6D6D;
+}
+.plane-sp{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 50%;
+	height: 2px;
+	text-align: center;
+}
+.flight-duration{
+	color: #6D6D6D;
+	font-size: 14px;
+	display: block;
+}
+.plane-sp-icon{
+	width: 80%;
+	height: 1px;
+	display: block;
+	float: left;
+	background-color: #A9A9A9;
+}
+.p-ico{
+	float:right;
+	display: block;
+	margin-top: -12px !important;
+}
+.flight-type{
+	color: #26B8E7;
+	font-size: 14px;
+}
+
+.covid-info{
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+	color: #6D6D6D;
+}
+
+.flight-price-col{
+	padding:30px 20px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 3px #D2D2D2;
+        box-shadow: 0 0 3px #D2D2D2;
+}
+.price-tag{
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+}
+.select-btn{
+	padding-top: 0px !important;
+	padding-bottom: 3px !important;
+	margin-top: 3px;
+	background-color: #00A798;
+}
+/* Single attribute classes*/
+.clear-both{
+	clear: both !important;
+}
+
+
